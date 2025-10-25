@@ -5,8 +5,7 @@ __pycache__/
 *.so
 .Python
 *.egg-info/
-
-build/pdf_downloader/
+dist/
 build/
 *.egg
 
@@ -14,6 +13,8 @@ build/
 venv/
 env/
 ENV/
+.venv/
+.env
 
 # PyInstaller
 # Keep PyInstaller spec files (e.g. pdf_downloader.spec) in the repo; ignore generated manifests only
@@ -25,11 +26,19 @@ ENV/
 *.swp
 *.swo
 *~
+*.sublime-workspace
+.DS_Store
+
+# Python IDE caches
+.mypy_cache/
+.pytest_cache/
+.pylint.d/
 
 # OS
-.DS_Store
 Thumbs.db
 desktop.ini
+.directory
+.AppleDouble
 
 # Icon conversion output
 icon/*.ico
