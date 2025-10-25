@@ -175,7 +175,7 @@ Whether it's bug fixes, feature requests, or documentation improvements, we appr
 
 ## 📄 License
 
-This project is open source and available for personal and commercial use.
+This project is open source and available for personal and commercial use.[MIT License](LICENSE)
 
 ---
 
