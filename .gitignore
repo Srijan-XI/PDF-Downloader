@@ -5,6 +5,8 @@ __pycache__/
 *.so
 .Python
 *.egg-info/
+
+build/pdf_downloader/
 build/
 *.egg
 
