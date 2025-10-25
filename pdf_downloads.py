@@ -86,7 +86,7 @@ def find_pdfs(url, depth=0, max_depth=2, log_callback=None):
 
 def download_single_pdf(pdf_url, output_folder, log_callback=None):
     """Download a single PDF file with progress tracking"""
-    global total_bytes_downloaded, is_downloading, is_paused
+    global total_bytes_downloaded
     
     # Wait if paused
     while is_paused and is_downloading:
@@ -147,7 +147,7 @@ def download_single_pdf(pdf_url, output_folder, log_callback=None):
 
 def download_pdfs(base_url, output_folder, max_depth, max_workers=3, log_callback=None, progress_callback=None, speed_callback=None):
     """Main download function with concurrent downloads"""
-    global pdf_links, visited_urls, is_downloading, is_paused, downloaded_count, total_bytes_downloaded, download_start_time
+    global is_downloading, is_paused, downloaded_count, total_bytes_downloaded, download_start_time
     
     # Reset globals
     visited_urls.clear()
