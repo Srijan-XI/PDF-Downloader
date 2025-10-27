@@ -107,6 +107,10 @@ run.bat
 
 ./run.sh
 ```
+ 
+### 💬 Telegram Bot
+
+For quick downloads and support, you can use the project's Telegram bot: https://t.me/pdfdownloadbot
 
 ---
 
